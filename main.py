@@ -28,11 +28,21 @@ elif(age < 17):
 else:
   print("You can watch any movies")
 
-  is_Hungry = True
-  is_Sleepy = False
+is_Hungry = True
+is_Sleepy = False
 if(is_Hungry == True):
  print("You should go eat")
 elif(is_Sleepy == True):
  print("You should go to sleep")
 elif(is_Sleepy == False):
-  print("Wow you're well-rested")
+ print("Wow you're well-rested")
+
+# Ask the user for a number
+# Tell the user if their number is even or odd
+number = input("Please input a number ")
+if(int(number) // 2):
+ print("Your number is even")
+elif(int(number) == 0):
+ print("Why do you like 0 always")
+else:
+ print("Your number is a odd number") 
