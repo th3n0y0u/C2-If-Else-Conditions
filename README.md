@@ -72,4 +72,4 @@ else:
  else:
    print("x and y must be equal")
 ```
-> x and y must be equal
+ > x and y must be equal

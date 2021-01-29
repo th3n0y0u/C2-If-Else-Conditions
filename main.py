@@ -46,3 +46,28 @@ elif(int(number) == 0):
  print("Why do you like 0 always")
 else:
  print("Your number is a odd number") 
+
+# Math Quadrants
+# Ask the user for an x and a y Value
+
+# Using a nested conditional, output which quadrant they are in
+
+x = int(input("Give me a x axis "))
+y = int(input("Give me a y axis "))
+
+if(x > 0):
+  if(y > 0):
+    print("Your coordinates are in the 1st quadrant")
+  if(y < 0):
+    print("Your coordinates are in the 4th quadrant")
+elif(x < 0):
+  if(y > 0):
+   print("Your coordinates are in the 2nd quadrant")
+  if(y < 0):
+   print("Your coordinates are in the 3rd quadrant")
+# if x and y are 0, output the origin
+elif(x == 0 and y == 0):
+  print("Your numbers are on the origin")
+
+# and, or 
+# and takes precadance over or
